@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import profile_img from "../../assets/about_profile.svg";
+import profile_img from "../../assets/abt.png";
 const About = () => {
   return (
     <div id="about" className="about">
@@ -16,13 +16,14 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-              hic officiis dolorem voluptate repellat aspernatur ad quos modi!
+              To obtain a position in an organization, where I can constantly
+              contribute my knowledge, skills, and intelligence to its growth
+              and simultaneously keep adding values to myself.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae aspernatur beatae excepturi eos eius rem quam libero,
-              mollitia earum autem suscipit! Velit?
+              Passionate about implementing and launching new projects. Looking
+              start career as an entry level engineer with a reputed firm driven
+              be technology.
             </p>
           </div>
           <div className="about-skills">
@@ -46,23 +47,6 @@ const About = () => {
               <p>SQL </p>
               <hr style={{ width: "50%" }} />
             </div>
-          </div>
-        </div>
-
-        <div className="about-achievements">
-          <div className="about-achievement">
-            <h1>10+</h1>
-            <p>Years Of Experience</p>
-          </div>
-          <hr />
-          <div className="about-achievement">
-            <h1>90+</h1>
-            <p>Projects Completed</p>
-          </div>
-          <hr />
-          <div className="about-achievement">
-            <h1>15+</h1>
-            <p>happy Client</p>
           </div>
         </div>
       </div>
